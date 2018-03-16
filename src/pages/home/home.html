@@ -22,7 +22,7 @@
         <!-- use ng-container if u don't want to use a specific element (li) -->
         <ng-container  *ngFor="let movie of hero.movies">
           <li>
-            {{movie.title}}, {{movie.releaseDate | date:'YYYY'}}
+            {{movie.title}}, {{movie.releaseDate | date:'yyyy'}}
           </li>
         </ng-container>
       </ul>
